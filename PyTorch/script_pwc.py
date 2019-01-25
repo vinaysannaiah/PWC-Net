@@ -27,9 +27,9 @@ def writeFlowFile(filename,uv):
 		f.write(uv.tobytes())
 
 
-im1_fn = 'data/frame_0010.png';
-im2_fn = 'data/frame_0011.png';
-flow_fn = './tmp/frame_0010.flo';
+im1_fn = 'data/frame_0010.png'; # input image 1
+im2_fn = 'data/frame_0011.png'; # input image 2
+flow_fn = './tmp/frame_0010.flo'; # Flow data for img1
 
 if len(sys.argv) > 1:
     im1_fn = sys.argv[1]
